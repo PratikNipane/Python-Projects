@@ -1,4 +1,4 @@
-## Rent Calculator :-
+# Rent Calculator :-
 
 rent = int(input(" Enter your flat rent :- "))
 electricity_current_unit_reading = int(input(" Enter the current meter reading :- "))
