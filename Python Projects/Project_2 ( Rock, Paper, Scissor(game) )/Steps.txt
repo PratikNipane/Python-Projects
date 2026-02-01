@@ -1,0 +1,38 @@
+Steps of Rock, Paper, Scissor game –
+
+1) Import the random module
+	This allows the program to generate random choices for the computer.
+
+2) Create a list of possible moves
+	item_list = ["Rock", "Paper", "Scissor"]
+	This list contains all valid moves.
+
+3) Take user input
+	user_choice = input("Enter your move :")
+	The program asks the user to type their move.
+
+4) Generate computer’s choice randomly
+	comp_choice = random.choice(item_list)
+	The computer picks one move from the list at random.
+
+5) Display both choices
+	print(f"User choice = {user_choice}, Computer choice = {comp_choice}")
+	Shows what the user and computer selected.
+
+6) Compare choices and decide the winner
+	If both choices are the same → Match Tie
+	If user chooses Rock:
+		Rock - Paper = Paper win
+		Rock - scissor = Rock win
+	If user chooses Paper:
+		Paper - Scissor = Scissor win
+		Paper - Rock = Paper win
+	If user chooses Scissor:
+		Scissor - Rock = Rock win
+		Scissor - Paper = Scissor win
+
+7) Print the result
+	Displays whether the user wins, computer wins, or it’s a tie.
+
+8) End message
+	print("Thank you for playing the game...")
